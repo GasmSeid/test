@@ -1,0 +1,43 @@
+﻿<Page x:Class="GONKI.KartSkills2017"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GONKI"
+        mc:Ignorable="d"
+        Title="KartSkills2017" Height="700" Width="1980">
+    <Grid Background="#fff">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="153*">
+
+                </RowDefinition>
+                <RowDefinition Height="547*">
+
+                </RowDefinition>
+            </Grid.RowDefinitions>
+
+            <Label FontFamily="Arial" Margin="0,20,0,0" Grid.ColumnSpan="2" VerticalAlignment="Top" HorizontalAlignment="Center" FontSize="50" Content="Информация о Kart Skills 2022"></Label>
+
+            <TextBlock TextWrapping="Wrap" Grid.Column="1" Grid.Row="1" Text="Тут находится информация о Kart Skills 2022(тут это внизу)
+                       
+                       Информация? Информация? Информация? Информация? Информация? Информация? Информация? Информация? Информация? Информация? Информация? Информация?" FontSize="30"></TextBlock>
+            <Grid Grid.Column="0" Grid.Row="1" >
+                <Button VerticalAlignment="Center" Width="400" Click="btnMap_Click" Height="300" BorderBrush="Transparent" Name="btnMap"  Background="Transparent">
+                    <StackPanel>
+                        <Image Width="400"  Source="C:\Users\user\source\repos\GONKI\GONKI\Map.jpg">
+
+                        </Image>
+                        <TextBlock Text="Нажмите, чтобы увеличить"/>
+                    </StackPanel>
+                </Button>
+
+            </Grid>
+        </Grid>
+        <Frame  x:Name="Page"></Frame>
+    </Grid>
+</Page>

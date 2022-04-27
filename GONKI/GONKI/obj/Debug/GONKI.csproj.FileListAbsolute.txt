@@ -1,0 +1,126 @@
+C:\Users\user\source\repos\GONKI\GONKI\obj\Debug\MainWindow.g.cs
+C:\Users\user\source\repos\GONKI\GONKI\obj\Debug\App.g.cs
+C:\Users\user\source\repos\GONKI\GONKI\obj\Debug\GONKI_MarkupCompile.cache
+C:\Users\user\source\repos\GONKI\GONKI\obj\Debug\GONKI_MarkupCompile.lref
+C:\Users\user\source\repos\GONKI\GONKI\bin\Debug\GONKI.exe.config
+C:\Users\user\source\repos\GONKI\GONKI\bin\Debug\GONKI.exe
+C:\Users\user\source\repos\GONKI\GONKI\bin\Debug\GONKI.pdb
+C:\Users\user\source\repos\GONKI\GONKI\obj\Debug\MainWindow.baml
+C:\Users\user\source\repos\GONKI\GONKI\obj\Debug\GONKI.g.resources
+C:\Users\user\source\repos\GONKI\GONKI\obj\Debug\GONKI.Properties.Resources.resources
+C:\Users\user\source\repos\GONKI\GONKI\obj\Debug\GONKI.csproj.GenerateResource.cache
+C:\Users\user\source\repos\GONKI\GONKI\obj\Debug\GONKI.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\GONKI\GONKI\obj\Debug\GONKI.exe
+C:\Users\user\source\repos\GONKI\GONKI\obj\Debug\GONKI.pdb
+C:\Users\user\source\repos\GONKI\GONKI\obj\Debug\Reg_gonshiki.g.cs
+C:\Users\user\source\repos\GONKI\GONKI\obj\Debug\Reg_gonshiki.baml
+C:\Users\user\source\repos\GONKI\GONKI\obj\Debug\Registraciya_gonshika.g.cs
+C:\Users\user\source\repos\GONKI\GONKI\obj\Debug\Registraciya_gonshika.baml
+C:\Users\user\source\repos\GONKI\GONKI\obj\Debug\Menu_gonshika.g.cs
+C:\Users\user\source\repos\GONKI\GONKI\obj\Debug\Menu_gonshika.baml
+C:\Users\user\source\repos\GONKI\GONKI\obj\Debug\Reg_na_gonku.g.cs
+C:\Users\user\source\repos\GONKI\GONKI\obj\Debug\Reg_na_gonku.baml
+C:\Users\user\source\repos\GONKI\GONKI\obj\Debug\Info.g.cs
+C:\Users\user\source\repos\GONKI\GONKI\obj\Debug\Redaktirovanie_Profilya.g.cs
+C:\Users\user\source\repos\GONKI\GONKI\obj\Debug\Info.baml
+C:\Users\user\source\repos\GONKI\GONKI\obj\Debug\Redaktirovanie_Profilya.baml
+C:\Users\user\source\repos\GONKI\GONKI\obj\Debug\MySponsor.g.cs
+C:\Users\user\source\repos\GONKI\GONKI\obj\Debug\MySponsor.baml
+C:\Users\user\source\repos\GONKI\GONKI\obj\Debug\Admin_blagotvoritelnie_organizacii.g.cs
+C:\Users\user\source\repos\GONKI\GONKI\obj\Debug\Admin_polzovateli.g.cs
+C:\Users\user\source\repos\GONKI\GONKI\obj\Debug\Koordinator_gonshiki.g.cs
+C:\Users\user\source\repos\GONKI\GONKI\obj\Debug\Koordinator_menu.g.cs
+C:\Users\user\source\repos\GONKI\GONKI\obj\Debug\Koordinator_sponsori.g.cs
+C:\Users\user\source\repos\GONKI\GONKI\obj\Debug\AdminMenu.g.cs
+C:\Users\user\source\repos\GONKI\GONKI\obj\Debug\AdminMenu.baml
+C:\Users\user\source\repos\GONKI\GONKI\obj\Debug\Admin_blagotvoritelnie_organizacii.baml
+C:\Users\user\source\repos\GONKI\GONKI\obj\Debug\Admin_polzovateli.baml
+C:\Users\user\source\repos\GONKI\GONKI\obj\Debug\Koordinator_gonshiki.baml
+C:\Users\user\source\repos\GONKI\GONKI\obj\Debug\Koordinator_menu.baml
+C:\Users\user\source\repos\GONKI\GONKI\obj\Debug\Koordinator_sponsori.baml
+C:\Users\user\source\repos\GONKI\GONKI\obj\Debug\Autorization.g.cs
+C:\Users\user\source\repos\GONKI\GONKI\obj\Debug\Autorization.baml
+C:\Users\user\source\repos\GONKI\GONKI\obj\Debug\O_Sobitii.g.cs
+C:\Users\user\source\repos\GONKI\GONKI\obj\Debug\Reg_sponsora.g.cs
+C:\Users\user\source\repos\GONKI\GONKI\obj\Debug\Thanks.g.cs
+C:\Users\user\source\repos\GONKI\GONKI\obj\Debug\O_Sobitii.baml
+C:\Users\user\source\repos\GONKI\GONKI\obj\Debug\Reg_sponsora.baml
+C:\Users\user\source\repos\GONKI\GONKI\obj\Debug\Thanks.baml
+C:\Users\user\source\repos\GONKI\GONKI\obj\Debug\HOME.g.cs
+C:\Users\user\source\repos\GONKI\GONKI\obj\Debug\HOME.baml
+C:\Users\user\source\repos\GONKI\GONKI\obj\Debug\Pred_result.g.cs
+C:\Users\user\source\repos\GONKI\GONKI\obj\Debug\Pred_result.baml
+C:\Users\user\source\repos\GONKI\GONKI\obj\Debug\KartSkills2017.g.cs
+C:\Users\user\source\repos\GONKI\GONKI\obj\Debug\MapPage.g.cs
+C:\Users\user\source\repos\GONKI\GONKI\obj\Debug\KartSkills2017.baml
+C:\Users\user\source\repos\GONKI\GONKI\obj\Debug\MapPage.baml
+C:\Users\user\source\repos\GONKI\GONKI\obj\Debug\Spisok_blag_org.g.cs
+C:\Users\user\source\repos\GONKI\GONKI\obj\Debug\Spisok_blag_org.baml
+C:\Users\user\source\repos\GONKI\GONKI\obj\Debug\EditRacer.g.cs
+C:\Users\user\source\repos\GONKI\GONKI\obj\Debug\EditRacer.baml
+C:\Users\user\source\repos\GONKI\GONKI\obj\Debug\GONKI.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\GONKI\GONKI\obj\Debug\MyResultsWin.g.cs
+C:\Users\user\source\repos\GONKI\GONKI\obj\Debug\MyResultsWin.baml
+C:\Users\seido\OneDrive\Рабочий стол\GONKI\GONKI\bin\Debug\GONKI.exe.config
+C:\Users\seido\OneDrive\Рабочий стол\GONKI\GONKI\bin\Debug\GONKI.exe
+C:\Users\seido\OneDrive\Рабочий стол\GONKI\GONKI\bin\Debug\GONKI.pdb
+C:\Users\seido\OneDrive\Рабочий стол\GONKI\GONKI\obj\Debug\GONKI.csproj.AssemblyReference.cache
+C:\Users\seido\OneDrive\Рабочий стол\GONKI\GONKI\obj\Debug\AdminMenu.g.cs
+C:\Users\seido\OneDrive\Рабочий стол\GONKI\GONKI\obj\Debug\Admin_blagotvoritelnie_organizacii.g.cs
+C:\Users\seido\OneDrive\Рабочий стол\GONKI\GONKI\obj\Debug\Admin_polzovateli.g.cs
+C:\Users\seido\OneDrive\Рабочий стол\GONKI\GONKI\obj\Debug\Autorization.g.cs
+C:\Users\seido\OneDrive\Рабочий стол\GONKI\GONKI\obj\Debug\EditRacer.g.cs
+C:\Users\seido\OneDrive\Рабочий стол\GONKI\GONKI\obj\Debug\HOME.g.cs
+C:\Users\seido\OneDrive\Рабочий стол\GONKI\GONKI\obj\Debug\Info.g.cs
+C:\Users\seido\OneDrive\Рабочий стол\GONKI\GONKI\obj\Debug\KartSkills2017.g.cs
+C:\Users\seido\OneDrive\Рабочий стол\GONKI\GONKI\obj\Debug\Koordinator_gonshiki.g.cs
+C:\Users\seido\OneDrive\Рабочий стол\GONKI\GONKI\obj\Debug\Koordinator_menu.g.cs
+C:\Users\seido\OneDrive\Рабочий стол\GONKI\GONKI\obj\Debug\Koordinator_sponsori.g.cs
+C:\Users\seido\OneDrive\Рабочий стол\GONKI\GONKI\obj\Debug\MainWindow.g.cs
+C:\Users\seido\OneDrive\Рабочий стол\GONKI\GONKI\obj\Debug\MapPage.g.cs
+C:\Users\seido\OneDrive\Рабочий стол\GONKI\GONKI\obj\Debug\Menu_gonshika.g.cs
+C:\Users\seido\OneDrive\Рабочий стол\GONKI\GONKI\obj\Debug\MyResultsWin.g.cs
+C:\Users\seido\OneDrive\Рабочий стол\GONKI\GONKI\obj\Debug\MySponsor.g.cs
+C:\Users\seido\OneDrive\Рабочий стол\GONKI\GONKI\obj\Debug\O_Sobitii.g.cs
+C:\Users\seido\OneDrive\Рабочий стол\GONKI\GONKI\obj\Debug\Pred_result.g.cs
+C:\Users\seido\OneDrive\Рабочий стол\GONKI\GONKI\obj\Debug\Redaktirovanie_Profilya.g.cs
+C:\Users\seido\OneDrive\Рабочий стол\GONKI\GONKI\obj\Debug\Registraciya_gonshika.g.cs
+C:\Users\seido\OneDrive\Рабочий стол\GONKI\GONKI\obj\Debug\Reg_gonshiki.g.cs
+C:\Users\seido\OneDrive\Рабочий стол\GONKI\GONKI\obj\Debug\Reg_na_gonku.g.cs
+C:\Users\seido\OneDrive\Рабочий стол\GONKI\GONKI\obj\Debug\Reg_sponsora.g.cs
+C:\Users\seido\OneDrive\Рабочий стол\GONKI\GONKI\obj\Debug\Spisok_blag_org.g.cs
+C:\Users\seido\OneDrive\Рабочий стол\GONKI\GONKI\obj\Debug\Thanks.g.cs
+C:\Users\seido\OneDrive\Рабочий стол\GONKI\GONKI\obj\Debug\App.g.cs
+C:\Users\seido\OneDrive\Рабочий стол\GONKI\GONKI\obj\Debug\GONKI_MarkupCompile.cache
+C:\Users\seido\OneDrive\Рабочий стол\GONKI\GONKI\obj\Debug\GONKI_MarkupCompile.lref
+C:\Users\seido\OneDrive\Рабочий стол\GONKI\GONKI\obj\Debug\AdminMenu.baml
+C:\Users\seido\OneDrive\Рабочий стол\GONKI\GONKI\obj\Debug\Admin_blagotvoritelnie_organizacii.baml
+C:\Users\seido\OneDrive\Рабочий стол\GONKI\GONKI\obj\Debug\Admin_polzovateli.baml
+C:\Users\seido\OneDrive\Рабочий стол\GONKI\GONKI\obj\Debug\Autorization.baml
+C:\Users\seido\OneDrive\Рабочий стол\GONKI\GONKI\obj\Debug\EditRacer.baml
+C:\Users\seido\OneDrive\Рабочий стол\GONKI\GONKI\obj\Debug\HOME.baml
+C:\Users\seido\OneDrive\Рабочий стол\GONKI\GONKI\obj\Debug\Info.baml
+C:\Users\seido\OneDrive\Рабочий стол\GONKI\GONKI\obj\Debug\KartSkills2017.baml
+C:\Users\seido\OneDrive\Рабочий стол\GONKI\GONKI\obj\Debug\Koordinator_gonshiki.baml
+C:\Users\seido\OneDrive\Рабочий стол\GONKI\GONKI\obj\Debug\Koordinator_menu.baml
+C:\Users\seido\OneDrive\Рабочий стол\GONKI\GONKI\obj\Debug\Koordinator_sponsori.baml
+C:\Users\seido\OneDrive\Рабочий стол\GONKI\GONKI\obj\Debug\MainWindow.baml
+C:\Users\seido\OneDrive\Рабочий стол\GONKI\GONKI\obj\Debug\MapPage.baml
+C:\Users\seido\OneDrive\Рабочий стол\GONKI\GONKI\obj\Debug\Menu_gonshika.baml
+C:\Users\seido\OneDrive\Рабочий стол\GONKI\GONKI\obj\Debug\MyResultsWin.baml
+C:\Users\seido\OneDrive\Рабочий стол\GONKI\GONKI\obj\Debug\MySponsor.baml
+C:\Users\seido\OneDrive\Рабочий стол\GONKI\GONKI\obj\Debug\O_Sobitii.baml
+C:\Users\seido\OneDrive\Рабочий стол\GONKI\GONKI\obj\Debug\Pred_result.baml
+C:\Users\seido\OneDrive\Рабочий стол\GONKI\GONKI\obj\Debug\Redaktirovanie_Profilya.baml
+C:\Users\seido\OneDrive\Рабочий стол\GONKI\GONKI\obj\Debug\Registraciya_gonshika.baml
+C:\Users\seido\OneDrive\Рабочий стол\GONKI\GONKI\obj\Debug\Reg_gonshiki.baml
+C:\Users\seido\OneDrive\Рабочий стол\GONKI\GONKI\obj\Debug\Reg_na_gonku.baml
+C:\Users\seido\OneDrive\Рабочий стол\GONKI\GONKI\obj\Debug\Reg_sponsora.baml
+C:\Users\seido\OneDrive\Рабочий стол\GONKI\GONKI\obj\Debug\Spisok_blag_org.baml
+C:\Users\seido\OneDrive\Рабочий стол\GONKI\GONKI\obj\Debug\Thanks.baml
+C:\Users\seido\OneDrive\Рабочий стол\GONKI\GONKI\obj\Debug\GONKI.g.resources
+C:\Users\seido\OneDrive\Рабочий стол\GONKI\GONKI\obj\Debug\GONKI.Properties.Resources.resources
+C:\Users\seido\OneDrive\Рабочий стол\GONKI\GONKI\obj\Debug\GONKI.csproj.GenerateResource.cache
+C:\Users\seido\OneDrive\Рабочий стол\GONKI\GONKI\obj\Debug\GONKI.csproj.CoreCompileInputs.cache
+C:\Users\seido\OneDrive\Рабочий стол\GONKI\GONKI\obj\Debug\GONKI.exe
+C:\Users\seido\OneDrive\Рабочий стол\GONKI\GONKI\obj\Debug\GONKI.pdb

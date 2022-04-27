@@ -1,0 +1,94 @@
+﻿<Page x:Class="GONKI.Reg_sponsora"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GONKI"
+        mc:Ignorable="d"
+        Title="Reg_sponsora" Height="700" Width="1980">
+
+        <Grid Background="White">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition Width="70"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="150"></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+
+            </Grid.RowDefinitions>
+
+            <Label Grid.Column="1" Content="Спонсор гонщика" HorizontalContentAlignment="Center" VerticalContentAlignment="Bottom" FontSize="40" />
+            <DockPanel Grid.ColumnSpan="2" Grid.Row="1">
+                <Label Content="Информация о Спонсоре" FontSize="40" HorizontalContentAlignment="Left" Width="478"/>
+            </DockPanel >
+            <DockPanel Grid.Row="2" >
+                <Label Content="Ваше имя:" HorizontalAlignment="Right" FontSize="40" Width="200" VerticalAlignment="Center" />
+            </DockPanel>
+            <DockPanel Grid.Row="3" >
+                <Label Content="Гонщик:" HorizontalAlignment="Right" FontSize="40" HorizontalContentAlignment="Right" VerticalAlignment="Center" />
+            </DockPanel>
+            <DockPanel Grid.Row="4" >
+                <Label Content="Карта:" HorizontalAlignment="Right" HorizontalContentAlignment="Right" FontSize="40" VerticalAlignment="Center" />
+            </DockPanel>
+            <DockPanel Grid.Row="5" >
+            <Label Content="Номер карты:" VerticalAlignment="Center" HorizontalContentAlignment="Right" HorizontalAlignment="Right" FontSize="40" Width="300" />
+            </DockPanel>
+            <DockPanel Grid.Row="6" >
+                <Label Content="Срок действия:" HorizontalAlignment="Right" Width="285" FontSize="40" VerticalAlignment="Center" />
+            </DockPanel>
+            <DockPanel Grid.Row="7" >
+                <Label Content="CVC:" HorizontalAlignment="Right" HorizontalContentAlignment="Right" Width="250" FontSize="40" VerticalAlignment="Center" />
+            </DockPanel>
+
+        <TextBox x:Name="tbName" Grid.Row="2" Grid.Column="1" HorizontalAlignment="Left" Width="450" TextAlignment="Left" FontSize="40" VerticalAlignment="Center" />
+
+        <ComboBox SelectedValuePath="ID_Racer"  Name="cbRacers" Grid.Row="3" Grid.Column="1" HorizontalAlignment="Left" Width="450" FontSize="40" VerticalAlignment="Center" >
+            <ComboBox.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock>
+                        <TextBlock.Text>
+                            <MultiBinding StringFormat=" {0} {1} ({2})">
+                                <Binding Path="Last_Name"/>
+                                <Binding Path="First_Name"/>
+                                <Binding Path="Country_Name"/>
+                            </MultiBinding>
+                        </TextBlock.Text>
+                    </TextBlock>
+                </DataTemplate>
+            </ComboBox.ItemTemplate>
+        </ComboBox>
+
+        <TextBox x:Name="tbCardOwner" Grid.Row="4" Grid.Column="1" HorizontalAlignment="Left" Width="450" TextAlignment="Left" FontSize="40" VerticalAlignment="Center" />
+
+        <TextBox Name="tbCardNumber" Grid.Row="5" Grid.Column="1" HorizontalAlignment="Left" Width="450" TextAlignment="Left" FontSize="40" VerticalAlignment="Center" />
+
+        <DatePicker Name="datePicker" Grid.Row="6" Grid.Column="1" HorizontalAlignment="Left"  FontSize="40"  Width="450"  VerticalAlignment="Center" />
+
+            
+        <TextBox x:Name="tbCVC" Grid.Row="7" Grid.Column="1" HorizontalAlignment="Left" FontSize="40" Width="150" TextAlignment="Left" VerticalAlignment="Center" />
+
+
+
+            <Label Grid.Column="2" Grid.Row="1" Content="Благотворительность" FontSize="40" HorizontalAlignment="Center"/>
+            <Label Grid.Column="2" Grid.Row="2" Content="Фонд Собак" FontSize="30" HorizontalAlignment="Center"/>
+            <Label Grid.Column="2" Grid.Row="3" Content="Сумма пожертования" FontSize="40" HorizontalAlignment="Center"/>
+        <TextBlock Text="0" Name="textBlockSum" Grid.Column="2" Grid.Row="4" Grid.RowSpan="2" Width="250"  FontSize="80" HorizontalAlignment="Center" TextAlignment="Center"/>
+        <Button Click="btnMinusSum_Click" Name="btnMinusSum" Grid.Column="2" Content="-" FontSize="40" Grid.Row="6" HorizontalAlignment="Left" Width="70" Height="70"/>
+        <Button Name="btnPlusSum" Click="btnPlusSum_Click" Grid.Column="2" Content="+" FontSize="40" Grid.Row="6" HorizontalAlignment="Right" Width="70" Height="70"/>
+        <TextBox Name="tbSum" IsReadOnly="True" Grid.Row="6" Grid.Column="2" HorizontalContentAlignment="Center" FontSize="40" Width="400"/>
+        <Button Name="btnPay" Click="btnPay_Click" Grid.Column="2" Content="Заплатить" FontSize="40" Grid.Row="7" HorizontalAlignment="Left" Width="250" VerticalAlignment="Center"/>
+        <Button  Name="btnCancel" Click="btnCancel_Click" Grid.Column="2" Content="Отмена" FontSize="40" Grid.Row="7" HorizontalAlignment="Right"
+Width="200" VerticalAlignment="Center"/>
+        <Frame Grid.RowSpan="8" Grid.ColumnSpan="4" x:Name="Page"></Frame>
+    </Grid>
+</Page>

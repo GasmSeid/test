@@ -1,0 +1,36 @@
+﻿<Page x:Class="GONKI.Koordinator_menu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GONKI"
+        mc:Ignorable="d"
+        Title="Меню координатора" Height="700" Width="1980">
+
+    <Grid Background="#fff">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="3*"></RowDefinition>
+            <RowDefinition Height="17*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+
+        <Label FontFamily="Arial" Margin="0,20,0,0" Grid.ColumnSpan="2" VerticalAlignment="Top" HorizontalAlignment="Center" FontSize="50" Content="Меню координатора"></Label>
+
+        <StackPanel Orientation="Vertical" Grid.Column="0" Grid.Row="1">
+            <Button Name="gon" FontFamily="Arial" FontSize="40" Content="Гонщики" HorizontalAlignment="Center" Height="120" Width="500" Margin="0,10,0,70" Click="gon_Click" ></Button>
+         
+
+        </StackPanel>
+
+        <StackPanel Orientation="Vertical" Grid.Column="1" Grid.Row="1">
+            <Button Name="spon" FontFamily="Arial" FontSize="40" Content="Спонсоры" HorizontalAlignment="Center" Height="120" Width="500" Margin="0,10,0,70" Click="spon_Click" ></Button>
+          
+
+        </StackPanel>
+        <Frame Grid.RowSpan="2" Grid.ColumnSpan="2" x:Name="Page"></Frame>
+    </Grid>
+</Page>

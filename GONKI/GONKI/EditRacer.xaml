@@ -1,0 +1,77 @@
+﻿<Page x:Class="GONKI.EditRacer"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GONKI"
+        mc:Ignorable="d"
+        Title="EditRacer" Height="700" Width="1980" Loaded="Window_Loaded">
+    <Grid Background="#fff">
+        <Grid.ColumnDefinitions>
+
+            <ColumnDefinition Width="140*"></ColumnDefinition>
+            <ColumnDefinition Width="237*"></ColumnDefinition>
+            <ColumnDefinition Width="283*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="9*"></RowDefinition>
+            <RowDefinition Height="41*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Label FontFamily="Arial" Grid.Row="0" Grid.ColumnSpan="3" FontSize="50" Content="Редактирование профиля гонщика" HorizontalAlignment="Center"></Label>
+
+        <StackPanel Grid.Row="1" Grid.Column="0" HorizontalAlignment="Right" Width="400">
+            <Label FontFamily="Arial" HorizontalContentAlignment="Right"  FontSize="36" Content="Email: " Margin="0,0,0,15" Height="60" Width="400" ></Label>
+            <Label FontFamily="Arial" HorizontalContentAlignment="Right" FontSize="36" Content="Пароль: " Margin="0,0,0,20" Height="60" Width="400" ></Label>
+            <Label FontFamily="Arial" HorizontalContentAlignment="Right" FontSize="36" Content="Повторите пароль: " Margin="0,0,0,20" Height="60" Width="400" ></Label>
+            <Label FontFamily="Arial" HorizontalContentAlignment="Right" FontSize="36" Content="Имя: " Margin="0,0,0,20" Height="60" Width="400" ></Label>
+            <Label FontFamily="Arial" HorizontalContentAlignment="Right" FontSize="36" Content="Фамилия: " Margin="0,0,0,20" Height="60" Width="400" ></Label>
+            <Label FontFamily="Arial" HorizontalContentAlignment="Right" FontSize="36" Content="Пол: "  Height="60" Width="400" Margin="0,0,0,20" ></Label>
+            <Label FontFamily="Arial" HorizontalContentAlignment="Right" FontSize="36" Content="Статус: "  Height="60" Width="400" ></Label>
+        </StackPanel>
+
+        <StackPanel Grid.Row="1" Grid.Column="1" HorizontalAlignment="Left" Width="450">
+            <TextBlock x:Name="EMail" FontFamily="Arial"  Margin="0,0,0,30" Height="50" Width="450" ></TextBlock>
+            <TextBox PreviewKeyDown="pass_PreviewKeyDown" x:Name="pass" FontFamily="Arial" BorderBrush="Black" BorderThickness="2" Margin="0,0,0,30" Height="50" Width="450"></TextBox>
+            <TextBox PreviewKeyDown="pass_PreviewKeyDown" x:Name="REpass" FontFamily="Arial" BorderBrush="Black" BorderThickness="2" Margin="0,0,0,30" Height="50" Width="450"></TextBox>
+            <TextBox PreviewKeyDown="pass_PreviewKeyDown" x:Name="name" FontFamily="Arial" BorderBrush="Black" BorderThickness="2" Margin="0,0,0,30" Height="50" Width="450"></TextBox>
+            <TextBox PreviewKeyDown="pass_PreviewKeyDown" x:Name="lastname" FontFamily="Arial" BorderBrush="Black" BorderThickness="2" Margin="0,0,0,30" Height="50" Width="450"></TextBox>
+            <ComboBox Name="Gender" FontFamily="Arial" BorderBrush="Black" BorderThickness="2"  Height="50" Width="450" Margin="0,0,0,30"></ComboBox>
+            <ComboBox Name="Status" FontFamily="Arial" BorderBrush="Black" BorderThickness="2"  Height="50" Width="450"></ComboBox>
+        </StackPanel>
+        <Button x:Name="registerBTN" Click="Button_Click_1" FontFamily="Arial" BorderBrush="Black" BorderThickness="2" FontSize="36" Content="Изменить"  Grid.Row="1" Grid.Column="1" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,0,30" Height="60" Width="250" ></Button>
+
+
+
+        <StackPanel  Orientation="Vertical" Grid.Column="2" Grid.Row="1" >
+            <Border Height="250" Width="250" HorizontalAlignment="Right" BorderBrush="Gray" BorderThickness="1" Margin="0,0,100,0">
+                <Image x:Name="avatarIMG" ></Image>
+            </Border>
+
+            <StackPanel Margin="150,0,0,0" Orientation="Horizontal" >
+                <StackPanel Orientation="Vertical">
+                    <Label  FontFamily="Arial" HorizontalContentAlignment="Left" FontSize="30" Content="Фото файл:  "  Height="41" Width="300"></Label>
+                    <Border Height="41" Width="300" BorderBrush="Black" BorderThickness="1">
+                        <TextBlock x:Name="photoTB"  FontSize="30" Text=" "></TextBlock>
+                    </Border>
+                </StackPanel>
+                <Button x:Name="prosmotrBTN" Click="prosmotrBTN_Click" Content="Просмотр" FontFamily="Arial" FontSize="30" Height="50" Margin="50,0,0,0" VerticalAlignment="Bottom" Width="250"></Button>
+            </StackPanel>
+            <StackPanel Margin="150,20,0,0"  Orientation="Horizontal" >
+                <Label  FontFamily="Arial" HorizontalContentAlignment="Left" FontSize="30" Content="Дата рождения:  "  Height="45" Width="250"></Label>
+                <DatePicker Name="Date"  Height="45" Width="300"  FontSize="30" Text=" "></DatePicker>
+            </StackPanel>
+
+            <StackPanel Margin="150,20,0,0"  Orientation="Horizontal" >
+                <Label  FontFamily="Arial" HorizontalContentAlignment="Right" FontSize="30" Content="Страна:  "  Height="45" Width="250"></Label>
+                <ComboBox Name="Country"   Height="45" Width="300"  FontSize="30" Text=" "></ComboBox>
+            </StackPanel>
+
+            <Button x:Name="back"  FontFamily="Arial" BorderBrush="Black" BorderThickness="2" FontSize="36" Content="Назад"  HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="30,20,0,0" Height="60" Width="200" Click="Button_Click"></Button>
+
+        </StackPanel>
+        <DataGrid x:Name="Data" Height="0.1"></DataGrid>
+        <Frame Grid.RowSpan="2" Grid.ColumnSpan="3" x:Name="Page"></Frame>
+    </Grid>
+</Page>

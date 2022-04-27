@@ -1,0 +1,24 @@
+﻿<Page x:Class="GONKI.Reg_gonshiki"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GONKI"
+        mc:Ignorable="d"
+        Title="Reg_gonshiki" Height="700" Width="1980">
+    <Grid Background="#fff" >
+        <Grid.ColumnDefinitions>
+
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Label FontFamily="Arial" Margin="0,70,0,0" Grid.ColumnSpan="2" VerticalAlignment="Top" HorizontalAlignment="Center" FontSize="50" Content="Учавствовали ранее?"></Label>
+
+        <Button FontFamily="Arial" x:Name="Yes" Content="Да" FontSize="50" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Center" Height="100" Width="350" Click="Yes_Click"> </Button>
+
+        <Button FontFamily="Arial" x:Name="No" Content="Нет" FontSize="50" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" Height="100" Width="350" Click="No_Click"></Button>
+
+        <Frame Grid.ColumnSpan="2" Name="Page" ></Frame>
+    </Grid>
+</Page>

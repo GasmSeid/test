@@ -1,0 +1,15 @@
+﻿<Page x:Class="GONKI.MyResultsWin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GONKI"
+        mc:Ignorable="d"
+        Title="MyResultsWin" Height="700" Width="1980">
+    <Grid Background="White">
+        <DataGrid x:Name="results" Margin="159,390,228,0" Loaded="results_Loaded"/>
+
+        <Button FontFamily="Arial" FontSize="40" Content="Назад" HorizontalAlignment="Center" Height="120" Width="500" Margin="1462,10,10,539" Click="Button_Click"></Button>
+
+    </Grid>
+</Page>

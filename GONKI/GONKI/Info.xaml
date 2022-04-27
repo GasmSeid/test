@@ -1,0 +1,27 @@
+﻿<Window x:Class="GONKI.Info"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GONKI"
+        mc:Ignorable="d"
+        Title="Info" Height="500" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Label FontFamily="Arial" HorizontalContentAlignment="Center" FontSize="45" Content="Контакты"  Height="60" Width="400" Grid.Row="0"></Label>
+        <StackPanel Orientation="Vertical" Grid.Row="1">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Label FontFamily="Arial" FontWeight="Bold" HorizontalContentAlignment="Center" FontSize="30" Content="Телефон:"  Height="60" Width="150"></Label>
+                <Label FontFamily="Arial" HorizontalContentAlignment="Center" FontSize="30" Content="+7 999 999 99 99"  Height="60" Width="280"></Label>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Label FontFamily="Arial" FontWeight="Bold" HorizontalContentAlignment="Center" FontSize="30" Content="Email:"  Height="60" Width="100"></Label>
+                <Label FontFamily="Arial" HorizontalContentAlignment="Center" FontSize="30" Content="yugkyug@kartskills.org"  Height="60" Width="330"></Label>
+            </StackPanel>
+           
+        </StackPanel>
+    </Grid>
+</Window>

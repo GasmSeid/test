@@ -1,0 +1,49 @@
+﻿<Page x:Class="GONKI.Koordinator_gonshiki"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GONKI"
+        mc:Ignorable="d"
+             Title="Управление гонщиками" Height="700" Width="1980">
+
+    <Grid Background="#fff">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="3*"></RowDefinition>
+            <RowDefinition Height="17*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+
+        <Label FontFamily="Arial" Margin="0,20,0,0" Grid.ColumnSpan="2" VerticalAlignment="Top" HorizontalAlignment="Center" FontSize="50" Content="Управление гонщиками"></Label>
+        <StackPanel Orientation="Vertical" Width="1400" Height="310" VerticalAlignment="Top" HorizontalAlignment="Left" Grid.Row="1">
+            <Label FontFamily="Arial" Margin="0,20,0,0" Grid.ColumnSpan="2" VerticalAlignment="Top" HorizontalAlignment="Center" FontSize="45" Content="Сортировка и фильтрация"></Label>
+
+            <StackPanel Margin="150,20,0,0"  Orientation="Horizontal" >
+                <Label  FontFamily="Arial" HorizontalContentAlignment="Right" FontSize="40" Content="Статус:  "  Height="55" Width="300"></Label>
+                <ComboBox Name="regState"  Height="45" Width="400"  FontSize="30" ></ComboBox>
+            </StackPanel>
+
+            <StackPanel Margin="150,20,0,0"  Orientation="Horizontal" >
+                <Label  FontFamily="Arial" HorizontalContentAlignment="Right" FontSize="40" Content="Вид гонки:  "  Height="55" Width="300"></Label>
+                <ComboBox  Name="raceType"  Height="45" Width="400"  FontSize="30" ></ComboBox>
+            </StackPanel>
+
+            <StackPanel Margin="150,20,0,0"  Orientation="Horizontal">
+                <Label  FontFamily="Arial" HorizontalContentAlignment="Right" FontSize="40" Content="Отсортировать:  "  Height="55" Width="300"></Label>
+                <ComboBox Name="MainFilter"  Height="45" Width="400"  FontSize="30" ></ComboBox>
+                <Button Content="Обновить" Margin="40,0,0,0"  Height="45" Width="200"  FontSize="30" Click="Button_Click_1" ></Button>
+                <Button Content="Сбросить" Margin="40,0,0,0"  Height="45" Width="200"  FontSize="30" Click="Button_Click_2" ></Button>
+
+            </StackPanel>
+
+        </StackPanel>
+        <Button Grid.Row="1" x:Name="edit" Click="Button_Click"  Height="45" Width="200"  FontSize="30" Content="Изменить" HorizontalAlignment="Right" Margin="0,349,0,201"/>
+        <Label FontFamily="Arial" Margin="708,310,708,199" Grid.Row="1" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="60" HorizontalAlignment="Center" FontSize="35" Content="Количество пилотов: "></Label>
+        <DataGrid x:Name="racers" Grid.Row="1" Height="200" VerticalAlignment="Bottom"></DataGrid>
+        <Frame x:Name="Page" Grid.RowSpan="2"></Frame>
+    </Grid>
+</Page>

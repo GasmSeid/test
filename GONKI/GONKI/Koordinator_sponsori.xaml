@@ -1,0 +1,38 @@
+﻿<Page x:Class="GONKI.Koordinator_sponsori"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GONKI"
+        mc:Ignorable="d"
+                Title="Просмотр спонсоров" Height="700" Width="1980">
+
+    <Grid Background="#fff">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="3*"></RowDefinition>
+            <RowDefinition Height="17*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+
+        <Label FontFamily="Arial" Margin="0,20,0,0" Grid.ColumnSpan="2" VerticalAlignment="Top" HorizontalAlignment="Center" FontSize="50" Content="Просмотр спонсоров"></Label>
+        <StackPanel Orientation="Vertical"   VerticalAlignment="Top" HorizontalAlignment="Center" Grid.Row="1">
+    
+
+      
+            <StackPanel Margin="0,30,0,0"  Orientation="Horizontal">
+                <Label  FontFamily="Arial" HorizontalContentAlignment="Right" FontSize="40" Content="Отсортировать:  "  Height="55" Width="300"></Label>
+                <ComboBox   Height="45" Width="400"  FontSize="30" ></ComboBox>
+                <Button FontFamily="Arial" Content="Сортировка" Margin="40,0,0,0"  Height="60" Width="200"  FontSize="35" ></Button>
+            </StackPanel>
+
+        </StackPanel>
+        <Label Name="CharityCount" FontFamily="Arial"  Grid.Row="1" FontWeight="Bold" HorizontalContentAlignment="Left" Width="720" VerticalContentAlignment="Center" Height="60" HorizontalAlignment="Center" FontSize="40" Margin="0,0,0,120" Content="Благотворительные организаии: "></Label>
+
+        <Label Name="CharityAmount" FontFamily="Arial"  Grid.Row="1" FontWeight="Bold" HorizontalContentAlignment="Left" Width="720" VerticalContentAlignment="Center" Height="60" HorizontalAlignment="Center" FontSize="40" Content="Всего спонсорских взносов: "></Label>
+        <DataGrid Name="charity" Grid.Row="1" Height="250" VerticalAlignment="Bottom"></DataGrid>
+    </Grid>
+</Page>

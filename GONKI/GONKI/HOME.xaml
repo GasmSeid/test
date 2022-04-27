@@ -1,0 +1,36 @@
+﻿<Page x:Class="GONKI.HOME"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GONKI"
+        mc:Ignorable="d"
+        Title="HOME" Height="700" Width="1980">
+    <Grid>
+        <StackPanel Background="#fff"  Orientation="Vertical">
+            <StackPanel  Margin="0,100,0,0"  Orientation="Horizontal">
+                <Button  BorderBrush="Black" BorderThickness="2" Background="#fff" x:Name="reg_gon" Height="400" Width="400" Margin="75,0,0,0" Click="reg_gon_Click">
+                    <Image Source="C:\Users\user\Pictures_for_praktik\Shlem.png"></Image>
+                </Button>
+                <Button BorderBrush="Black" BorderThickness="2" Background="#fff" x:Name="reg_sponsors" Height="400" Width="400" Margin="75,0,0,0" Click="reg_sponsors_Click">
+                    <Image Source="C:\Users\user\Pictures_for_praktik\Dengi.png"></Image>
+                </Button>
+                <Button BorderBrush="Black" BorderThickness="2" Background="#fff" x:Name="o_sobitii" Height="400" Width="400" Margin="75,0,0,0" Click="o_sobitii_Click">
+                    <Image Source="C:\Users\user\Pictures_for_praktik\Informatsia.png"></Image>
+                </Button>
+                <Button BorderBrush="Black" BorderThickness="2" Background="#fff" x:Name="vhod_v_sistemu" Height="400" Width="400" Margin="75,0,0,0" Click="vhod_v_sistemu_Click">
+                    <Image Source="C:\Users\user\Pictures_for_praktik\Klyuch.png"></Image>
+                </Button>
+            </StackPanel>
+
+            <StackPanel  Margin="0,20,0,0"  Orientation="Horizontal">
+                <Label FontFamily="Arial"  Height="70" Width="400" Content="Регистрация гонщика" HorizontalContentAlignment="Center" FontSize="38" Margin="75,0,0,0"></Label>
+                <Label FontFamily="Arial"  Height="70" Width="410" Content="Регистрация спонсора" HorizontalContentAlignment="Center" FontSize="38" Margin="75,0,0,0"></Label>
+                <Label FontFamily="Arial"  Height="70" Width="400" Content="О событии" HorizontalContentAlignment="Center" FontSize="38" Margin="65,0,0,0"></Label>
+                <Label FontFamily="Arial"  Height="70" Width="400" Content="Вход в систему" HorizontalContentAlignment="Center" FontSize="38" Margin="75,0,0,0"></Label>
+            </StackPanel>
+
+        </StackPanel>
+        <Frame  Name="Page" ></Frame>
+    </Grid>
+</Page>
